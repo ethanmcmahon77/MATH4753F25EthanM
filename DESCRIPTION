@@ -1,16 +1,15 @@
 Package: MATH4753F25EthanM
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Package for semester
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Ethan, McMahon",
+      email = "ethanmcmahon77@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: lab code 2025
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

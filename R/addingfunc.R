@@ -1,6 +1,6 @@
 #' my read function
 #'
-#' @param csv
+#' @param csv the data file
 #'
 #' @returns a table from the csv file
 #' @export
@@ -10,5 +10,5 @@ myread=function(csv){
   fl=paste(csv)
   read.table(fl,header=TRUE,sep=",")
 }
-myread("DDT.csv")
+
 

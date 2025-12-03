@@ -1,9 +1,9 @@
 #' Hypergeometric function
 #'
-#' @param iter
-#' @param N
-#' @param r
-#' @param n
+#' @param iter iterations through parameter values
+#' @param N population size
+#' @param r Successes in population
+#' @param n sample size
 #'
 #' @returns a hypergeometric simulation and plot
 #' @export

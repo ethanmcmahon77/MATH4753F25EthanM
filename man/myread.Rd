@@ -7,7 +7,7 @@
 myread(csv)
 }
 \arguments{
-\item{csv}{}
+\item{csv}{the data file}
 }
 \value{
 a table from the csv file

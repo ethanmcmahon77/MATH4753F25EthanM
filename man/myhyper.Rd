@@ -7,7 +7,13 @@
 myhyper(iter = 100, N = 20, r = 12, n = 5)
 }
 \arguments{
-\item{n}{}
+\item{iter}{iterations through parameter values}
+
+\item{N}{population size}
+
+\item{r}{Successes in population}
+
+\item{n}{sample size}
 }
 \value{
 a hypergeometric simulation and plot

@@ -7,8 +7,8 @@
 #'
 #' @examples myread(DDT.csv)
 myread=function(csv){
-  fl=paste(csv,sep="")
+  fl=paste(csv)
   read.table(fl,header=TRUE,sep=",")
 }
-
+myread("DDT.csv")
 

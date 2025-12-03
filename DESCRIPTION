@@ -18,3 +18,7 @@ BugReports: https://github.com/ethanmcmahon77/MATH4753F25EthanM/issues
 RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

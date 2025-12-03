@@ -1,6 +1,8 @@
 ---
 title: "MATH4753F25EthanM"
-output: rmarkdown::html_vignette
+output:
+  rmarkdown::html_vignette:
+    toc: true
 vignette: >
   %\VignetteIndexEntry{MATH4753F25EthanM}
   %\VignetteEngine{knitr::rmarkdown}
@@ -16,4 +18,53 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(MATH4753F25EthanM)
+data("DDT.csv")
 ```
+
+# Description
+
+The MATH4753F25EthanM package includes four functions: myhyper(), myread(), pareto(), and myfirstfunction()
+It also includes dataset DDT.  
+
+This vignette demonstrates how to load the dataset and use the functions.
+
+# Load the data set
+
+```{r}
+data("DDT")
+```
+
+
+# Using myhyper
+
+This function runs hypergeometirc simulations based on given parameters
+```{r}
+myhyper(iter=1000,n=19, N=20,r=12)
+```
+
+# Using myread
+
+This function reads in csv files
+```{r}
+ddt <- myread(system.file("extdata", "DDT.csv", package = "MATH4753F25EthanM"))
+head(ddt)
+```
+
+# Using pareto
+
+This function creates a pareto barplot from a vector
+```{r}
+freq <- c(15,8,63,20)
+RL <- c("None","Both","LegsO","WheelsO")
+l <- rep(RL, freq)
+
+pareto(l)
+```
+
+# Using myfirstfunction
+
+This function gives a y value that is x squared and creates a graph and table.
+```{r}
+myfirstfunction(1:4)
+```
+

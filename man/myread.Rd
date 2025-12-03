@@ -16,5 +16,5 @@ a table from the csv file
 my read function
 }
 \examples{
-myread(DDT.csv)
+myread(system.file("extdata", "DDT.csv", package = "MATH4753F25EthanM"))
 }

@@ -13,3 +13,8 @@ Description: lab code 2025
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/ethanmcmahon77/MATH4753F25EthanM
+BugReports: https://github.com/ethanmcmahon77/MATH4753F25EthanM/issues
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
